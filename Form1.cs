@@ -114,8 +114,13 @@ namespace PAF_app2
                     panel1.Visible = false;
                     panel2.Visible = true;
                     break;
+                case "AB29_TEST":
+                    panel1.Visible = false;
+                    panel2.Visible = true;
+                    break;
                 default:
                     panel1.Visible = false;
+                    panel2.Visible = false;
                     break;
                     
             }
@@ -129,7 +134,37 @@ namespace PAF_app2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+            foreach (Control c in this.Controls)
+            {
+                if (c is Panel) c.Visible = false;
+            }
+        }
+
+
+
+        private void BtnRunAB29_Click(object sender, EventArgs e)
+        {
+            string sql = SqlText();
+            string connString = ConnStringCLUASAXPRE();
+
+            SqlConnection DbConn = new SqlConnection(@"Data Source=BCNAXDBASAXPRE\ASAX;Initial Catalog=SHEF;Integrated Security=SSPI;");
+            SqlCommand ExecJob = new SqlCommand();
+            ExecJob.CommandType = CommandType.StoredProcedure;
+            ExecJob.CommandText = "msdb.dbo.sp_start_job";
+            ExecJob.Parameters.AddWithValue("@job_name", "AB29_TEST");
+            ExecJob.Connection = DbConn; //assign the connection to the command.
+            //BCNAXDBASAXPRE\ASAX
+            using (DbConn)
+            {
+                DbConn.Open();
+                using (ExecJob)
+                {
+                    ExecJob.ExecuteNonQuery();
+                }
+            }
+            MessageBox.Show("Success.");
+            Application.Exit();
+
         }
     }
 }
