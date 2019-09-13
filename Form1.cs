@@ -166,6 +166,16 @@ namespace PAF_app2
             Application.Exit();
 
         }
+
+        private void Label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
