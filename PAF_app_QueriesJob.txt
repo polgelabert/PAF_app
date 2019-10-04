@@ -1,0 +1,14 @@
+Queries:
+
+exec msdb.dbo.sp_start_job
+@job_name = "001_AB28_AB29"
+
+EXEC msdb.dbo.sp_stop_job 
+@job_name = "001_AB28_AB29"
+
+exec msdb.dbo.sp_help_jobactivity
+@job_name = "001_AB28_AB29"
+
+exec msdb.dbo.sp_help_job
+@job_name = "001_AB28_AB29",
+@job_aspect = "JOB"

@@ -9,3 +9,14 @@ C:\Users\pol.gelabert\Documents\Source\C#_repos\PAF_app\obj\Debug\PAF_app2.exe
 C:\Users\pol.gelabert\Documents\Source\C#_repos\PAF_app\obj\Debug\PAF_app2.pdb
 C:\Users\pol.gelabert\Documents\Source\C#_repos\PAF_app\obj\Debug\PAF_app2.Form1.resources
 C:\Users\pol.gelabert\Documents\Source\C#_repos\PAF_app\obj\Debug\PAF_app2.UserControl_Params.resources
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\bin\Debug\PAF_app2.exe.config
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\bin\Debug\PAF_app2.exe
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\bin\Debug\PAF_app2.pdb
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.csprojAssemblyReference.cache
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.Form1.resources
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.Properties.Resources.resources
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.UserControl_Params.resources
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.csproj.GenerateResource.cache
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.csproj.CoreCompileInputs.cache
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.exe
+C:\Users\ecultrar\Desktop\Esteban\Repositorio\PAF_app\obj\Debug\PAF_app2.pdb

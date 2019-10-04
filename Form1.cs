@@ -442,7 +442,7 @@ namespace PAF_app2
          */
         public string ConnStringASAXPRE()
         {
-            return @"Data Source=BCNAXDBASAXPRE\ASAX;Initial Catalog=SHEF;Integrated Security=SSPI;";
+            return @"Data Source=BCNAXDBASAXPRE\ASAX;Initial Catalog=SHEF;Integrated Security=SSPI";
         }
 
         /**
